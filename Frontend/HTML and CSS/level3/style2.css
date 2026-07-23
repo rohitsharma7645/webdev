@@ -1,0 +1,58 @@
+.parent{
+    display: flex;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    margin: 10px;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(243, 96, 96);
+    border: 3px solid black;
+    margin: 10px;
+    position: relative;   /*position relative to itself. its overlap other boxes upper */
+    top: 40px;            /*and lower on the basis of its z index */
+    left: 80px;
+    z-index: -1;                       
+    
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(164, 24, 124);
+    border: 3px solid black;
+    margin: 10px;
+    position: absolute;     /* position relative to its parent tag. its is */
+    top: 50px;              /* completely out from the flow and overlap from upper*/    
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(52, 133, 128);
+    border: 3px solid black;
+    margin: 10px;
+    position: fixed;
+    right: 100px;
+    top: 100px;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(195, 129, 43);
+    border: 3px solid black;
+    margin: 10px;
+}
+#box6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 167, 195);
+    border: 3px solid black;
+    margin: 10px;
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}

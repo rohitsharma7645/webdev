@@ -1,0 +1,25 @@
+/* =========
+    NAVBAR
+  ========== */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  border-bottom: 2px solid black;
+}
+
+.logo{
+  font-size: larger;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 36px;
+}
+.nav-links ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: large;
+}

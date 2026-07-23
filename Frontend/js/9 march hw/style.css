@@ -1,0 +1,14 @@
+#btn{
+    padding: 8px 12px;
+    display: flex;
+    justify-self: center;
+}
+
+.dark{
+    color: white;
+    background-color: #111;
+}
+.light{
+    color: #111;
+    background-color: white;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#p1{
+    background-color: red;
+    color: yellow;
+}
+#p2{
+    background-color: orange;
+    color: blueviolet;
+}#p3{
+    background-color: greenyellow;
+    
+}#p4{
+    background-color: violet;
+    color: rgb(115, 62, 56);
+}#p5{
+    background-color: seagreen;
+    color: rgb(148, 160, 160);
+}

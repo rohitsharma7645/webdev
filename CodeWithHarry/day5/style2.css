@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+table{
+    border: solid;
+    background-color: rgb(230, 144, 39);
+}
+td{
+    border: solid;
+    background-color: aquamarine;
+}
+th{
+    background-color: rgb(111, 212, 233);
+    border: solid;
+}

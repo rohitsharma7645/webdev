@@ -1,0 +1,27 @@
+.div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+@media (max-width: 600px) {
+    #div1{
+        background-color: antiquewhite;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    #div2{
+        background-color: navy
+    }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    #div3{
+        background-color: rgb(151, 0, 221);
+    }
+}
+@media (min-width: 600px) {
+    #div4{
+        background-color: rgb(34, 255, 0);
+    }
+}

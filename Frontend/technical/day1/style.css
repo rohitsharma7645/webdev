@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: rgb(195, 195, 195);
+}
+
+.menu{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #f4f4f4;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+.hero-text p{
+    margin: 15px 0px;
+    color: #555;
+}
+
+.hero-txt button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.features{
+    display: flex;
+    text-align: center;
+    flex: 1;
+    color: white;
+}
+.black{
+    background-color: black;
+    padding: 40px 20px;
+}
+.teal{
+    background-color: #00b2b2;
+    padding: 40px 20px;
+}
+.blue{
+    background-color: #00c2c2;
+    padding: 40px 20px;
+}
+
+.about{
+    text-align: center;
+    padding: 60px 100px;
+    background-color: #f4f4f4;
+}
+.about h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about p{
+    color: #555;
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+}
+.about button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.anchor{
+    font-size: 30px;
+    margin-bottom: 10px;
+}

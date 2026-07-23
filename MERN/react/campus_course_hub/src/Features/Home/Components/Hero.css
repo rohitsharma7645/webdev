@@ -1,0 +1,46 @@
+.hero{
+    background-color: #eefbf2;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+}
+
+.txt{
+    width: 35vw;
+}
+.txt h1{
+    margin: 8px 0 32px 0;
+    font-size: xxx-large;
+    font-weight: 900;
+    line-height: 120%;
+}
+.txt h3, h1 span{
+    color: #328f56;
+}
+
+.img{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 560px;
+}
+
+.txt p{
+    margin: 36px 0;
+}
+
+.hero-btn {
+    padding: 0.75rem 1rem;      
+    background-color: #328f56;  
+    color: #ffffff;            
+    font-weight: 600;           
+    border-radius: 0.125rem;    
+
+}
+
+.hero-btn:hover {
+    background-color: #2b7a49;  
+}

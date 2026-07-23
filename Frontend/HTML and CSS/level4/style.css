@@ -1,0 +1,36 @@
+
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+#parent{
+    background-color: aqua;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+#child{
+    background-color: antiquewhite;
+    align-self: center;
+    height: 50px;
+    width: 50px;
+}
+.div{
+    background-color: antiquewhite;
+}
+@media(max-width:300px){
+    #div1{
+        background-color: brown;
+    }
+}

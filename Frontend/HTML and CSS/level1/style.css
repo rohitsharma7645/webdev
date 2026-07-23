@@ -1,0 +1,13 @@
+table{
+    border: solid;
+    background-color: rosybrown;
+}
+td{
+    border: solid;
+    background-color: aquamarine;
+}
+
+th{
+    border: solid;
+    background-color: rgb(65, 221, 221);
+}

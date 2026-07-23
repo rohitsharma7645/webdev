@@ -1,0 +1,16 @@
+:root {
+  --text: #111;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #111;
+
+  --sans: 'Poppins', 'Segoe UI', 'Roboto', sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--sans);
+}

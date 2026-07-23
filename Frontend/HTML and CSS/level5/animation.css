@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  /* normal(only goes from l to r), reverse, alternate-rev
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}  
+/* @keyframes move {
+    from{
+        background-color: bisque;
+        left: -50px;
+    }
+    to{
+        background-color: blueviolet;
+        left: 500px;
+    }
+} */
+ @keyframes move {
+    0%{
+        background-color: bisque;
+        left: -50px;
+    }
+    50%{
+        background-color: rgb(28, 164, 166);
+    }
+    100%{
+        background-color: blueviolet;
+        left: 800px;
+    }
+}

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(170, 170, 170);
+    border-top: 10px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation: spinanimate 1s ease-in-out 0s infinite normal 
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    background-color: #fff5eb;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100pxpx;
+}
+
+.tophead{
+    display: flex;
+    width: 100vw;
+}
+
+.company-logo{
+    height: 45px;
+    width: 132px;
+    background-image: url(rolephlogo.png);
+    background-size: cover;
+    margin: 5px 50px;    
+}
+
+i{
+    background-color: transparent;
+}
+.searchbar{
+    color: #B89677;
+    background-color: #E0D2BB ;
+    height: 30%;
+    width: 40vw;
+    margin: 15px 180px 15px 200px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.navlogo{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.logo{
+    font-size: x-large;
+    color: #6D5642;
+    margin: 10px 50px 10px 60px;
+    padding: 5px;
+    display: flex;
+}
+
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    margin: 10px 50px;
+}
+.bottomhead{
+    background-color: #B89677;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv{
+    display: flex;
+    height: 80vh;
+    width: 98vw;
+    margin: 1vw;
+}
+.leftdiv{
+    background-color: #4F4B42;
+    height: 100%;
+    width: 68%;
+}
+
+.upperdiv{
+    background-color: #7C6F65;
+    height: 39vh;
+    width: 31vw;
+    margin: 0px 0px 10px 10px;
+}
+
+.lowerdiv{
+    background-color: #818683;
+    height: 39vh;
+    width: 31vw;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}

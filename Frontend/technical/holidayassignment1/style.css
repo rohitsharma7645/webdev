@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #fff5eb;
+    color: #000;
+}
+
+
+header{
+    background: #B79678;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    color: #fae6d3;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.contactbtn {
+    background: #c0692f;
+    border: none;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #dcdcdc; */
+    padding: 60px 150px;
+    height: 550px;
+}
+
+.herotext h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.herotext p {
+    margin-bottom: 12px;
+    font-weight: 400;
+    color: #333;
+}
+
+.btns button {
+    margin-right: 12px;
+    padding: 9px 18px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.learnbutton {
+    background: #c0692f;
+    color: #fff;
+}
+
+.buybutton {
+    background-color: #717171;
+    border: 1px solid #000;
+    color: white;
+}
+
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #857d7b ;
+    color: #fff;
+    padding: 30px 100px;
+    width: 98vw;
+    justify-self: center;
+}
+
+
+.rightsubs{
+    margin-right: 100px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.rightsubs h1{
+    justify-self: center;
+}
+
+.airpods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #fff; */
+    padding: 30px 0px 0px 100px;
+}
+
+.airtext h1 {
+    font-size: 26px;
+    /* margin-bottom: 20px; */
+    font-weight: 600;
+    height: 100px;
+    color: #b99573;
+    margin-top: 40px;
+}
+
+.kbutton {
+    width: 200px;
+    height: 80px;
+    background-image: url(playstore1.png);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+footer {
+    background: #B79678;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.rightfoot p {
+    font-weight: 600;
+}
+
+.leftfoot button {
+    background: #c0692f;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.airpods-img{
+    height: 400px;
+    width: 420px;
+    background-image: url(mobile.png);
+    background-size: cover;
+    margin-bottom: 0%;
+    margin-right: 200px;
+}
+ul{
+    list-style: none;
+}
+h3{
+    color: #545454;
+}

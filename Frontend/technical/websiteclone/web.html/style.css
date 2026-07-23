@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head {
+  
+  background-color: #0d1b2a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 15px 50px;
+  position: fixed;
+  width: 94%;
+}
+
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+}
+.first-btn{
+    background-color: rgb(8, 177, 121);
+    border-width: 0%;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 22px;
+    
+}
+.p1{
+    
+    font-weight: 800;
+    font-size: xxx-large;
+    margin: 15px 15px 15px 100px;
+}
+#p2{
+    margin: 10px 10px 10px 100px;
+}
+.para1{
+    margin-top: 100px;
+}
+.para2{
+    margin-top: 30px;
+}
+.btn1{
+    margin-left: 100px;
+    background-color: rgb(8, 177, 121);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 22px;
+}
+.btn2{
+    background-color: rgb(255, 136, 0);
+    border: none;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 22px;
+}
+#image{
+    height: 400px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-image: url(interior.jpg);
+    background-size: cover;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    
+    width: 100vw;
+
+}
+.orng{
+    color: rgb(255, 136, 0);
+}
+/* #bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(62, 211, 211, .9);
+    border-radius: 10px;
+} */
+ .div2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px 1px rgba(133, 133, 133, 0.5);
+ }
+ .herosec{
+    margin-bottom: 50px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background:url(book.jpg), rgba(13, 27, 42, 1);
+    background-blend-mode: overlay;
+ }
+
+ .btn3{
+    width: 120px;
+    margin: 5px 5px 5px 0px;
+    padding: 9px;
+    border-radius: 3px;
+    border-style: none;
+    background-color:rgb(8, 177, 121);
+    color: white;
+ }
+ #btn4{
+    width: 120px;
+    margin: 5px;
+    padding: 9px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: rgb(255, 136, 0);
+    color: white;
+ }
+
+.grn{
+    color: rgb(8, 177, 121);
+}
+.abt{
+    text-align: center;
+}
+.content{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+#box{
+    width: 23%;
+    margin-left: 200px;
+}
+td{
+    padding: 15px;
+    text-align: left;
+    box-shadow: #0d1b2a;
+
+}
+th{
+    padding: 15px;
+    text-align: left;
+    box-shadow: #0d1b2a;
+
+}
+#low{
+    margin-top: 10px;
+}
+table{
+    margin-top: 20px;
+    box-shadow: #0d1b2a;
+    
+}
+.btn5{
+    width: 120px;
+    padding: 9px;
+    border-style: none;
+    box-shadow: 0 0 5px 1px rgba(133, 133, 133, 0.3);
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#h3{
+    margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background:url(bg.jpg), rgba(13, 27, 42, 1);
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+.girl{
+    width: 50%;
+    height: 100%;
+}
+#txt{
+    margin-top: 80px;
+}
+.txt2{
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+#form1{
+    display: flex;
+}
+
+.mail{
+    margin-left: 15px;
+}
+#sub{
+    width: 98.6%;
+    margin-bottom: 15px;
+}
+#reason{
+    height: 22px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+.submit{
+    width: 120px;
+    margin: 5px 5px 5px 0;
+    padding: 9px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.clr{
+    background: rgba(53, 70, 131, .85);
+    border-style: none;
+    height: 20px;
+    border-radius: 3px;
+}
+.form{
+    height: 100%;
+    margin-left: 150px;
+    align-items: center;
+}
+input{
+    margin-top: 5px;
+}
+select{
+    margin-top: 5px;
+}
+.girl{
+    width: 30%;
+    margin: 0px 30px 0px 250px;
+    background: url(download.png);
+    background-size: cover;
+}
