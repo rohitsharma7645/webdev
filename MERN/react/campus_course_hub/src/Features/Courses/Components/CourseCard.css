@@ -2,5 +2,17 @@
 .card{
     border:1px solid #ddd;
     border-radius:10px;
-    padding:15px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.card img{
+    width: 95%;
+    border-radius: 2%;
+    margin-bottom: 5px;
+    size-adjust: contain;
+}
+
+.text{
+    width: 95%;
 }

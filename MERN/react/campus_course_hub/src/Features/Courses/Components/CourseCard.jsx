@@ -1,18 +1,20 @@
 import './CourseCard.css'
 
-const CourseCard = (props) => {
+const CourseCard = ({ course }) => {
     return (
         <div>
             <div className="card">
-                <img src={props.image} alt={props.name} />
+                <img src={course.image} alt={course.name} />
 
-                <h2>{props.name}</h2>
+                <div className='text'>
+                    <h2>{course.name}</h2>
 
-                <p>Instructor: {props.instructor}</p>
+                    <p>Instructor: {course.instructor}</p>
 
-                <p>Duration: {props.duration}</p>
+                    <p>Duration: {course.duration}</p>
 
-                <p>Level: {props.level}</p>
+                    <p>Level: {course.level}</p>
+                </div>
             </div>
         </div>
     )

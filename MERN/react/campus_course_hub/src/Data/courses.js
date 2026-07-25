@@ -5,7 +5,7 @@ const courses = [
     instructor: "John Doe",
     duration: "6 Weeks",
     level: "Beginner",
-    image: "https://..."
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   },
   {
     id: 2,
@@ -13,15 +13,15 @@ const courses = [
     instructor: "Sarah",
     duration: "8 Weeks",
     level: "Intermediate",
-    image: "https://..."
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   },
   {
     id: 3,
     name: "Data Science",
     instructor: "John Doe",
     duration: "6 Weeks",
-    level: "Beginner",
-    image: "https://..."
+    level: "Advance",
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const courses = [
     instructor: "Sarah",
     duration: "8 Weeks",
     level: "Intermediate",
-    image: "https://..."
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const courses = [
     instructor: "John Doe",
     duration: "6 Weeks",
     level: "Beginner",
-    image: "https://..."
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const courses = [
     instructor: "Sarah",
     duration: "8 Weeks",
     level: "Intermediate",
-    image: "https://..."
+    image: "https://i.pinimg.com/736x/2d/38/8e/2d388e54598d97c8c0c3b1d4c7af0aa7.jpg"
   }
 ];
 
