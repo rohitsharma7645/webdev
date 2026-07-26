@@ -1,11 +1,12 @@
 .hero{
-    background-color: #eefbf2;
+    background-color: white;
     padding: 50px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     height: 80vh;
+    border-top: 1px solid rgb(219, 219, 219);
 }
 
 .txt{

@@ -1,3 +1,16 @@
+.course{
+    background-color: #eefbf2;
+    padding: 50px;
+    margin: 0;
+}
+
+.course h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    color: #328f56;
+}
+
 .course-container{
     display:grid;
     grid-template-columns:repeat(3,1fr);

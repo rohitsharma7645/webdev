@@ -4,10 +4,14 @@ import './Courses.css'
 
 const Courses = () => {
   return (
+    <div className="course">
+    <h1>Course</h1>
     <div className="course-container">
+    
       {CourseData.map((course) => (
         <CourseCard key={course.id} course={course} />
       ))}
+    </div>
     </div>
   )
 }
