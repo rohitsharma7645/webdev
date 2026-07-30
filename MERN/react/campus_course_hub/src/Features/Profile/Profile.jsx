@@ -14,6 +14,7 @@ function Profile() {
   const [saved, setSaved] = useState(false);
 
   const handleChange = (e) => {
+    e.preventDefault()
     const { name, value } = e.target;
 
     setProfile((prev) => ({

@@ -7,13 +7,13 @@ const CourseCard = ({ course }) => {
                 <img src={course.image} alt={course.name} />
 
                 <div className='text'>
-                    <h2>{course.name}</h2>
+                    <h2><b>{course.name}</b></h2>
 
-                    <p>Instructor: {course.instructor}</p>
+                    <p><b>Instructor:</b> {course.instructor}</p>
 
-                    <p>Duration: {course.duration}</p>
+                    <p><b>Duration:</b> {course.duration}</p>
 
-                    <p>Level: {course.level}</p>
+                    <p><b>Level:</b> {course.level}</p>
                 </div>
             </div>
         </div>
