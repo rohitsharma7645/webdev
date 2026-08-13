@@ -1,18 +1,40 @@
 import express from "express";
-
 const app = express();
-app.use(express.json())   // with this app can convert the data into json
 
-const users = [
-    {id:1, name:"Rohit"},
-    {id:2, name:"Chandu"},
-    {id:3, name: "Arya"}
+app.use(express.json());
+
+const user = {
+  name: "Himanshu",
+  bio: "Software Developer",
+};
+
+const skills = ["Java", "JavaScript", "React", "Node.js"];
+
+const projects = [
+  {
+    id: 1,
+    name: "Portfolio Website",
+  },
+  {
+    id: 2,
+    name: "AI Project",
+  },
 ];
 
-// get
-app.get("/users", (req,res)=>{
-    res.status(200).json(users)
-})
+// Get bio
+app.get("/bio", (req, res) => {
+  res.status(200).json(user);
+});
+
+// Get skills
+app.get("/skills", (req, res) => {
+  res.status(200).json(skills);
+});
+
+// Get projects
+app.get("/projects", (req, res) => {
+  res.status(200).json(projects);
+});
 
 
 // post
@@ -27,7 +49,7 @@ app.post('/users', (req,res)=>{
 
 // put
 
-app.put('/user/:id', (req,res)=>{
+app.put('/users/:id', (req,res)=>{
     const id = Number(req.params.id);
     const user = users.find(u => u.id===id)
 
@@ -43,5 +65,5 @@ app.delete('/users/:ids',(req,res)=>{
 })
 
 app.listen(3000, ()=>{
-    console.log("Server is running on port 3000")
+    console.log(`Server is running on port http://localhost:${3000}`)
 })
