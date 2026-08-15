@@ -1,40 +1,38 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 
-function App() {
-  const [bio, setBio] = useState({});
-  const [skills, setSkills] = useState([]);
-  const [projects, setProjects] = useState([]);
+const App = () => {
+  const [data,setData] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/bio")
-      .then((res) => res.json())
-      .then((data) => setBio(data));
+  async function fetchData() {
+    try {
+      const response_bio = await fetch('http://localhost:3000/users');
+      if (!response_bio.ok) {
+        throw new Error(`Fetch failed: ${response_bio.status}`);
+      }
+      setData(await response_bio.json());
+    } 
+    catch (error) {
+      console.error(error);
+    }
+  }
 
-    fetch("http://localhost:3000/skills")
-      .then((res) => res.json())
-      .then((data) => setSkills(data));
-
-    fetch("http://localhost:3000/projects")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
-  }, []);
-
+  useEffect(()=>{
+    fetchData();
+  })
   return (
     <div>
-      <h1>{bio.name}</h1>
-      <p>{bio.bio}</p>
-
-      <h2>Skills</h2>
-      {skills.map((skill) => (
-        <p key={skill}>{skill}</p>
-      ))}
-
-      <h2>Projects</h2>
-      {projects.map((project) => (
-        <p key={project.id}>{project.name}</p>
-      ))}
+      <h1>Hello World</h1>
+      {
+        data.map((item)=>{
+          return (
+            <div key={item.id}> 
+            <h2>{item.name}</h2>
+            </div>
+          )
+        })
+      }
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

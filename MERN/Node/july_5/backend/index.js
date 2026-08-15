@@ -1,41 +1,35 @@
 import express from "express";
+import cors from "cors";
+
 const app = express();
+app.use(express.json())   // with this app can convert the data into json
+app.use(cors())
 
-app.use(express.json());
-
-const user = {
-  name: "Himanshu",
-  bio: "Software Developer",
+let users = {
+    name:  "Rohit",
+    bio: "Software Developer"
 };
 
-const skills = ["Java", "JavaScript", "React", "Node.js"];
+let skills = ['jav','c++','js','python']
 
-const projects = [
-  {
-    id: 1,
-    name: "Portfolio Website",
-  },
-  {
-    id: 2,
-    name: "AI Project",
-  },
-];
+let projects = [
+    {id:1, name:'Project1'},
+    {id:1, name:'Project1'},
+    {id:1, name:'Project1'},
+]
 
-// Get bio
-app.get("/bio", (req, res) => {
-  res.status(200).json(user);
-});
+// get
+app.get("/bio", (req,res)=>{
+    res.status(200).json(users)
+})
 
-// Get skills
-app.get("/skills", (req, res) => {
-  res.status(200).json(skills);
-});
+app.get('/skills', (req,res)=>{
+    res.status(200).json(skills)
+})
 
-// Get projects
-app.get("/projects", (req, res) => {
-  res.status(200).json(projects);
-});
-
+app.get('/projects', (req,res)=>{
+    res.status(200).json(projects)
+})
 
 // post
 app.post('/users', (req,res)=>{
