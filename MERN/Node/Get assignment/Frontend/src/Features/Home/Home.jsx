@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import ProjectCard from "./Components/ProjectCard";
+import Projects from "./Components/Projects";
+import "./Home.css";
 
 const Home = () => {
     const [portfolio, setPortfolio] = useState(null);
-
 
     const fetchData = async () => {
         try {
@@ -16,20 +16,28 @@ const Home = () => {
 
             const data = await response.json();
 
+            console.log("Portfolio data:", data);
+
             setPortfolio(data);
+
         } catch (error) {
-            console.error("Error fetching skills:", error);
-        } 
+            console.error(error);
+        }
     };
 
     useEffect(() => {
         fetchData();
     }, []);
 
+
+
+    if (!portfolio) {
+        return <h2>No portfolio data found.</h2>;
+    }
+
     return (
         <div className="portfolio">
 
-            {/* Profile Section */}
             <section className="profile">
                 <h1>{portfolio.name}</h1>
 
@@ -46,20 +54,7 @@ const Home = () => {
                 </ul>
             </section>
 
-
-            {/* Projects Section */}
-            <section className="projects">
-                <h2>Projects</h2>
-
-                <div className="project-grid">
-                    {portfolio.projects.map((project) => (
-                        <ProjectCard
-                            key={project.id}
-                            project={project}
-                        />
-                    ))}
-                </div>
-            </section>
+            <Projects projects={portfolio.projects} />
 
         </div>
     );

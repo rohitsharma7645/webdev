@@ -1,0 +1,16 @@
+.projects {
+  display: grid;
+  gap: 1rem;
+}
+
+.projects h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}

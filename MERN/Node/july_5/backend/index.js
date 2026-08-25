@@ -5,6 +5,44 @@ const app = express();
 app.use(express.json())   // with this app can convert the data into json
 app.use(cors())
 
+app.use((req,res,next)=>{
+    console.log(`${req.method} ${req.url}`)
+    next()
+})
+
+app.use((req,res,next)=>{
+    console.log(`Middleware 1`)
+    next()
+})
+
+app.use((req,res,next)=>{
+    console.log(`Middleware 2`)
+    next()
+})
+
+function ab1(req,res,next){
+    console.log('Middleware for user 1')
+    next()
+}  
+
+function ab2(req,res,next){
+    console.log('Middleware for user 2')
+    next()
+} 
+
+app.get('/user1',ab1,(req,res)=>{
+    console.log('Middleware for user1')
+})
+app.get('/user2',ab2,(req,res)=>{
+    console.log('Middleware for user2')
+})
+
+let items = [{id:1,name:'Rohit'}]
+
+app.get('/api/items', (req,res)=>{
+    res.json(items)
+})
+
 let users = {
     name:  "Rohit",
     bio: "Software Developer"

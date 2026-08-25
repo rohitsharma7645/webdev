@@ -8,28 +8,28 @@ const projects = [
     },
     {
         id:2,
-        name: 'iPhone 14',
+        name: 'Brush',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:3,
-        name: 'iPhone 14',
+        name: 'Pen',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:4,
-        name: 'iPhone 14',
+        name: 'Salt',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:5,
-        name: 'iPhone 14',
+        name: 'Cycle',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
@@ -85,42 +85,42 @@ const projects = [
     },
     {
         id:13,
-        name: 'iPhone 14',
+        name: 'Bag',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:14,
-        name: 'iPhone 14',
+        name: 'Motorola',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:15,
-        name: 'iPhone 14',
+        name: 'Bottle',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:16,
-        name: 'iPhone 14',
+        name: 'Shirt',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:17,
-        name: 'iPhone 14',
+        name: 'T-shirt',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:18,
-        name: 'iPhone 14',
+        name: 'Shoes',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
@@ -134,14 +134,14 @@ const projects = [
     },
     {
         id:20,
-        name: 'iPhone 14',
+        name: 'Samsung',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'
     },
     {
         id:21,
-        name: 'iPhone 14',
+        name: 'Lenevo',
         price:72000,
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaPmAGLv_dQ3PUYRxZbDLu6a4oMIJ74aP3Q-qfO7qMg&s=10",
         category: 'Mobile'

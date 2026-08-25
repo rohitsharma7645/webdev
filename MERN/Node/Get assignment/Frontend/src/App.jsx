@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Shared/Components/Navbar'
 import Home from './Features/Home/Home'
 import Blog from './Features/Blogs/Blog'
 import Products from './Features/Products/Products'
 import Profiles from './Features/Profiles/Profiles'
-import BlogsDetails from './Features/Blogs/BlogDetails'
-import ProductsDetail from './Features/Products/ProductsDetail'
+import BlogsDetails from './Shared/BlogDetails'
+import ProductsDetail from './Shared/ProductsDetail'
 
 const App = () => {
   return (

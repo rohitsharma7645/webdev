@@ -7,133 +7,133 @@ const profiles = [
     },
     {
         id: 2,
-        name: "Rahul",
-        role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        name: "Aman",
+        role: "Backend Developer",
+        skill: ['C++','React','Python','Java']
     },
     {
         id: 3,
-        name: "Rahul",
-        role: "Frontend Developer",
+        name: "Harivansh",
+        role: "Fullstack Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 4,
-        name: "Rahul",
-        role: "Frontend Developer",
+        name: "Om",
+        role: "MERN stack Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 5,
-        name: "Rahul",
-        role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        name: "Rishabh",
+        role: "Java Developer",
+        skill: ['Node','React','Python','Java']
     },
     {
         id: 6,
-        name: "Rahul",
-        role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        name: "Nitish",
+        role: "Data Analyst",
+        skill: ['SQL','React','Python','Java']
     },
     {
         id: 7,
-        name: "Rahul",
+        name: "Ankit",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 8,
-        name: "Rahul",
-        role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        name: "Aaditya",
+        role: "Data Scientist",
+        skill: ['SQL','React','Python','Java']
     },
     {
         id: 9,
-        name: "Rahul",
-        role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        name: "Arav",
+        role: "AI Engineer",
+        skill: ['Javascript','React','Python','Java','ML']
     },
     {
         id: 10,
-        name: "Rahul",
+        name: "Nikhil",
         role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        skill: ['Javascript','React','Python','Cpp']
     },
     {
         id: 11,
-        name: "Rahul",
+        name: "Arya",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 12,
-        name: "Rahul",
+        name: "Priya",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 13,
-        name: "Rahul",
+        name: "Pritam",
         role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        skill: ['Javascript','React','Rust','Java']
     },
     {
         id: 14,
-        name: "Rahul",
+        name: "Puja",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 15,
-        name: "Rahul",
+        name: "Priyanka",
         role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        skill: ['Javascript','React','Express','Java']
     },
     {
         id: 16,
-        name: "Rahul",
+        name: "Ajay",
         role: "Frontend Developer",
-        skill: ['Javascript','React','Python','Java']
+        skill: ['Javascript','React','Python','MongoDB']
     },
     {
         id: 17,
-        name: "Rahul",
+        name: "Vijay",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 18,
-        name: "Rahul",
+        name: "Amit",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 19,
-        name: "Rahul",
+        name: "Niraj",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 20,
-        name: "Rahul",
+        name: "Raj",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 21,
-        name: "Rahul",
+        name: "Ram",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 22,
-        name: "Rahul",
+        name: "Krishna",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },
     {
         id: 23,
-        name: "Rahul",
+        name: "Keshav",
         role: "Frontend Developer",
         skill: ['Javascript','React','Python','Java']
     },

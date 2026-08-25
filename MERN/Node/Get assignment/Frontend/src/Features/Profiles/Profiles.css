@@ -1,0 +1,42 @@
+.page-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.search-form {
+  margin-bottom: 1.25rem;
+}
+
+.search-input {
+  border: 1px solid #000 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  background: #fff !important;
+}
+
+.search-input:focus {
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+
+.cards-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.item-card {
+  border: 1px solid #000;
+  padding: 1rem;
+  background: #fff;
+}
+
+.item-card h3,
+.item-card p {
+  margin: 0 0 0.5rem;
+}
+
+.item-card p:last-child {
+  margin-bottom: 0;
+}
