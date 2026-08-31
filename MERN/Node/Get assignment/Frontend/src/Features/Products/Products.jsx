@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Form, InputGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { fuzzyMatch } from "../../Shared/fuzzySearch";
 import "./Products.css";
 
 const Products = () => {
@@ -49,11 +50,7 @@ const Products = () => {
 
       <div className="cards-grid">
         {products
-          .filter((product) => {
-            return debouncedSearch.toLowerCase() === ""
-              ? product
-              : product.name.toLowerCase().includes(debouncedSearch.toLowerCase());
-          })
+          .filter((product) => fuzzyMatch(product.name, debouncedSearch))
           .map((product) => (
             <Link
               to={`/Products/${product.id}`}

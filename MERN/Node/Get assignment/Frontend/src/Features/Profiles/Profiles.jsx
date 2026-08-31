@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Form, InputGroup } from "react-bootstrap";
+import { fuzzyMatch } from "../../Shared/fuzzySearch";
 import "./Profiles.css";
 
 const Profiles = () => {
@@ -39,19 +40,11 @@ const Profiles = () => {
 
       <div className="cards-grid">
       {
-        profiles.filter(profile => {
-          const query = search.toLowerCase();
-
-          if (query === '') {
-            return true;
-          }
-
-          return (
-            profile.name.toLowerCase().includes(query) ||
-            profile.role.toLowerCase().includes(query) ||
-            profile.skill.some(skill => skill.toLowerCase().includes(query))
-          );
-          }).map(profile => (
+        profiles.filter(profile => (
+          fuzzyMatch(profile.name, search) ||
+          fuzzyMatch(profile.role, search) ||
+          profile.skill.some(skill => fuzzyMatch(skill, search))
+        )).map(profile => (
             <div key={profile.id} className="item-card">
                 <h3>{profile.name}</h3>
                 <p>{profile.role}</p>
