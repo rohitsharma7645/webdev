@@ -1,0 +1,36 @@
+.edit-product-page,
+.edit-product-message {
+  max-width: 520px;
+  margin: 32px auto;
+  padding: 24px;
+  border: 1px solid;
+}
+
+.edit-product-message button {
+  margin-top: 12px;
+  padding: 8px;
+  border: 1px solid;
+}
+
+.edit-product-page .product-form > div {
+  margin-bottom: 16px;
+}
+
+.edit-product-page .product-form input,
+.edit-product-page .product-form textarea,
+.edit-product-page .product-form button {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid;
+}
+
+.edit-product-page .product-form textarea {
+  min-height: 96px;
+  resize: vertical;
+}
+
+.edit-product-page .product-form button + button {
+  margin-top: 12px;
+}

@@ -1,0 +1,31 @@
+.users-page {
+  margin: 16px 0;
+}
+
+.users-page > input {
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid;
+}
+
+.user-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+  padding: 12px;
+  border: 1px solid;
+}
+
+.user-row p {
+  margin: 0;
+}
+
+.user-row button {
+  padding: 8px;
+  border: 1px solid;
+}
