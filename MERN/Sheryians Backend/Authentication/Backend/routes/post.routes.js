@@ -1,9 +1,33 @@
 import express from 'express'
-// import authController from '../controllers/auth.controller.js';
+import jwt from 'jsonwebtoken'
+import userModel from '../model/user.model.js';
+
 
 const router = express.Router();
 
-// post to access this I have to use api/auth/register bcz in app.js we use api/auth as prefix in app.use middleware
-// router.post('/register',authController.registerUser)
+router.post('/create', async(req,res)=>{
+    const token = req.cookies.token;
+
+    if(!token){
+        return res.status(401).json({
+            message: 'Unauthorized'
+        })
+    }
+
+    try{
+        const decoded = jwt.verify(token, process.env.JWT_SECRET)
+
+        const user = await userModel.findOne({
+            _id: decoded.id
+        })
+        console.log(user)
+    } catch(error){
+        return res.status(401).json({
+            message: 'Invalid token'
+        })
+    }
+
+    res.send('Post created successfully')
+})
 
 export default router
